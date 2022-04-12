@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  background-color: lightslategray;
+  color: gold;
+  height: 100hv;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+#root{
+  height: 100%;
+}
+
+.App{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pomodoro{
+  font-size:6em;
+}
+
+.message{
+  font-size: 0.5em;
+  min-height: 1.3em;
+  margin-bottom: 0.5em;
+}
